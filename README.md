@@ -1,1 +1,1 @@
-# llm-assistant
+# multi-model LLM interface implementation
