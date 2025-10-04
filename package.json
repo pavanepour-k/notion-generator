@@ -1,0 +1,61 @@
+{
+  "name": "notion-generator",
+  "version": "1.0.0",
+  "description": "AI-powered Notion template generator - Create custom Notion templates with AI",
+  "private": true,
+  "author": "Notionify Team",
+  "license": "MIT",
+  "keywords": [
+    "notion",
+    "ai",
+    "template",
+    "generator",
+    "productivity",
+    "nextjs",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out dist",
+    "analyze": "ANALYZE=true next build",
+    "test": "node scripts/test-app.js",
+    "setup": "node scripts/setup.js",
+    "prepare": "npm run type-check && npm run lint"
+  },
+  "dependencies": {
+    "next": "^14.2.33",
+    "react": "^18",
+    "react-dom": "^18",
+    "lucide-react": "^0.263.1",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/notion-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/notion-generator/issues"
+  },
+  "homepage": "https://github.com/your-username/notion-generator#readme"
+}
